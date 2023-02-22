@@ -19,7 +19,7 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '4    
+          cpus: '4'  
     network_mode: "spark-net"
     stdin_open: true # docker run -i
     tty: true        # docker run -t
